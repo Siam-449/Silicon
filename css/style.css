@@ -23,8 +23,6 @@ body {
     justify-content: center;
 }
 
-
-
 ul,ol {
     list-style: none;
     padding: 0;
@@ -32,6 +30,15 @@ ul,ol {
 
 a {
     text-decoration: none;
+    color: var(--white);
+}
+
+.last_color {
+    display: inline-block;
+    color: #6366F1;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
 }
 
 img {
@@ -66,77 +73,96 @@ p {
     border-radius: 4px;
     background: transparent;
     }
+
+.my_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 32px;
+    gap: 8px;
+    white-space: nowrap;
+    color: #6366F1;
+    width: 182px;
+    height: 52px;
+    right: 312px;
+    top: 1886px;
+    background: transparent;
+    border: 1px solid rgba(99, 102, 241, 0.35);
+    border-radius: 8px;
+}
     
-    .common_btn {
-        background: #FFFFFF;
-        box-shadow: 0px 8px 18px -8px rgba(99, 102, 241, 0.9);
-        border-radius: 8px;
-    }
-    
-    body{
-        background: #f5f5f5;
-        font-family: var(--manrope);
-    }
-    
-    .common_btn {
-        background: #6366F1;
-        border-radius: 5px;
-        transition: all linear 0.3s;
-        cursor: pointer;
-        color: var(--white);
-        padding: 9px 20px;
-        border-radius: 4px;
-        font-size: 14px;
-        line-height: 18px;
-        font-weight: 600;
-        border: none;
-    }
-    
-    .navbar-nav .nav-item .nav-link {
-        color: #33354D;
-    }
-    
-    .navbar-nav .nav-item .nav-link.active {
-        color: #6366F1;
-    }
-    
-    .cheakbox{
-        width: 46px;
-        height: 24px;
-        border-radius: 1000px;
-        background: var(--primary);
-        padding: 2px;
-        position: relative;
-        cursor: pointer;
-    }
-    
-    .nav_btns {
-        margin-left: 32px;
-    }
-    
-    .cheakbox::after {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
-        background: var(--white);
-        content: "";
-        left: 2px;
-        transition: all linear 0.3s;
-    }
-    #cheakbox_for_theme{
-        display: none;
-    }
-    
-    #cheakbox_for_theme:checked + .cheakbox {
-        background: var(--dark) !important;
-    }
-    
-    #cheakbox_for_theme:checked + .cheakbox::after {
-        left: calc(100% - 22px);
-    }
+.common_btn {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 18px -8px rgba(99, 102, 241, 0.9);
+    border-radius: 8px;
+}
+
+body{
+    background: #f5f5f5;
+    font-family: var(--manrope);
+}
+
+.common_btn {
+    background: #6366F1;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+    color: var(--white);
+    padding: 9px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #33354D;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #6366F1;
+}
+
+.cheakbox{
+    width: 46px;
+    height: 24px;
+    border-radius: 1000px;
+    background: var(--primary);
+    padding: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav_btns {
+    margin-left: 32px;
+}
+
+.cheakbox::after {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--white);
+    content: "";
+    left: 2px;
+    transition: all linear 0.3s;
+}
+
+#cheakbox_for_theme{
+    display: none;
+}
+
+#cheakbox_for_theme:checked + .cheakbox {
+    background: var(--dark) !important;
+}
+
+#cheakbox_for_theme:checked + .cheakbox::after {
+    left: calc(100% - 22px);
+}
 
 /* banner section start */
 #banner_slider {
@@ -258,7 +284,7 @@ p {
 
 /* banner section end */
 
-/* Award section end */
+/* Award section start */
 #award {
     padding-top: calc(112px - 56px);
     padding-bottom: 0;
@@ -322,8 +348,6 @@ p {
     padding-bottom: 0 !important;
 }
 
-
-
 .service_item {
     padding: 64px 40px 40px;
     background: var(--white);
@@ -345,8 +369,6 @@ p {
     position: absolute;
     top: 0;
     transform: translateY(-50%);
-
-
 }
 
 .service_item h3 {
@@ -358,8 +380,6 @@ p {
     display: flex;
     gap: 16px;
     align-items: center;
-
-
 }
 
 .service_item h3 a {
@@ -425,7 +445,6 @@ p {
     padding-bottom: 32px;
 }
 
-
 #case_studies .carousel-indicators {
     height: 10px !important;
 }
@@ -444,8 +463,6 @@ p {
     padding: 0px;
     transform: translateY(calc(50% + 60px));
     gap: 16px !important;
-
-
 }
 
 #case_studies .carousel-indicators button[data-bs-target="#carouselExampleIndicators"].active {
@@ -650,7 +667,6 @@ p {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    /* position: absolute; */
     transform: translateY(calc(50% + 60px));
     gap: 16px !important;
 }
@@ -723,12 +739,12 @@ p {
     gap: 16px;
 }
 
-
 .news_slider .news_slide_item {
     background: var(--white);
     padding: 40px;
     border-radius: 8px;
     transition: all linear 0.3s;
+    position: relative;
 
 }
 
@@ -810,100 +826,147 @@ p {
     width: 24px;
 }
 
+.right-slide {
+    height: 36px;
+    width: 36px;
+    background: #FFFFFF;
+    color: #0B0F19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 1;
+    font-size: 10px;
+    position: absolute;
+    right: -13%;
+    top: 50%;
+    border: #FFFFFF;
+}
+.left-slide {
+    height: 36px;
+    width: 36px;
+    background: #FFFFFF;
+    color: #0B0F19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 1;
+    font-size: 10px;
+    position: absolute;
+    margin-left: -22%;
+    top: 50%;
+    border: #FFFFFF;
+}
 
 
 /* ========== footer section stat ======== */
+
 footer {
     background: #0B0F19;
     color: #FFFFFF;
- }
- #project .overly {
+}
+
+#project .overly {
     background: rgba(255, 255, 255, 0.04);
- }
- #project .project-heading {
+}
+
+#project .project-heading {
     padding: 112px 0;
     text-align: center;
- }
- #project .project-heading h6 {
+}
+
+#project .project-heading h6 {
     font-size: 24px;
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.45);
- }
- #project .project-heading h3 {
-      font-size: 40px;
-      font-weight: bolder;
-      line-height: 1.3;
-      color: #FFFFFF;
-      padding-top: 16px ;
-      padding-bottom: 48px;
- }
-  .footer-content  {
+}
+
+#project .project-heading h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 1.3;
+    color: #FFFFFF;
+    padding-top: 16px ;
+    padding-bottom: 48px;
+}
+
+.footer-content {
     padding-top: 72px;
- }
- .footer-item p {
+}
+
+.footer-item p {
     color: #ffffff75 !important;
     font-size: 14px;
     line-height: 1.6;
     padding-top: 24px;
     padding-bottom: 40px;
- }
- .footer-item h4 {
+}
+
+.footer-item h4 {
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.6;
      
- }
- .footer-item h6 {
+}
+
+.footer-item h6 {
     color: #ffffff58;
     font-size: 12px;
     line-height: 1.6;
     padding-top: 72px;
      
- }
- .input-control {
+}
+
+.input-control {
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     display: flex;
     align-items: center;
     gap: 8px;
     padding-left: 16px;
- }
- .input-control .input {
+}
+
+.input-control .input {
     background: transparent;
     border: rgba(255, 255, 255, 0.18);
     font-size: 14px;
     line-height: 1.6;
     color: #FFFFFF;
- }
- .input-control .sub-btn {
+}
+
+.input-control .sub-btn {
     background: #6366F1;
     color: #FFFFFF;
     padding: 11px 16px;
     font-size: 14px;
     line-height: 1.6;
- }
- .footer-menu {
+}
+
+.footer-menu {
     margin-bottom: 0;
- }
+}
    
- .footert-menu-2 {
+.footert-menu-2 {
     padding-top: 40px;
- }
- .footert-menu-2 li {
+}
+
+.footert-menu-2 li {
     padding: 8px 0;
- }
- .footer-menu li {
+}
+
+.footer-menu li {
      font-size: 16px;
      line-height: 1.6; 
      padding: 8px 0;
- }
- .footer-menu span {
+}
+
+.footer-menu span {
      font-size: 16px;
      line-height: 1.6;
-     
  }
+ 
  /* ========== footer section end ======== */
-
 
 
 
