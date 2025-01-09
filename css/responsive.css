@@ -3,38 +3,57 @@
         margin-left: -1px;
         margin-top: 22px;
     }
+    
+    .common_btn {
+        line-height: 15px;
+    }
+    
     /* banner sec start */
+    #banner_slider {
+        height: 500px;
+    }
+    
     #banner_slider .carousel-item h1 {
-        font-size: 25px;
+        font-size: 16px;
+        margin: -20px 0px;
     }
 
     #banner_slider .carousel-item p {
-        font-size: 12px;
+        font-size: 8px;
+        font-weight: 200;
+        padding-top: 21px;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        element.style {
+        margin-bottom: inherit;
+}
+    }
+
+    #banner_slider .carousel-item h1 {
+        font-size: 20px;
+        margin: -100px auto;
+    }
+
+    #banner_slider .carousel-item p {
+        font-size: 13px;
+        font-weight: 200;
+        padding-top: 20px;
+        margin: 85px 60px;
+        padding-bottom: 0px;
     }
 
     .slide_footer {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding: 82px 0px 0;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: space-between;
+        justify-content: center;
+        padding: 30px 50px 0;
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
-    #banner_slider .carousel-item {
-        height: 50%;
-        padding-top: 30px;
-        margin: 10px auto;
-        
+    .social_link {
+        margin-bottom: inherit;
     }
-    
-    .common_btn {
-        padding: 6px 9px;
-        font-size: 9px;
-        line-height: 15px;
-    }
-    
     /* banner sec end */
 }
 
@@ -44,6 +63,7 @@
         margin-top: 22px;
     }
 }
+
 
 @media (min-width:768px) and (max-width:991.98px) {
     .nav-bar-button {
@@ -59,9 +79,7 @@
 }
 
 @media (min-width:1200px) and (max-width:1399.98px) {
-    .work-with-us-btn {
-        
-    }
+    
 }
 
 @media (min-width:1400px) {
