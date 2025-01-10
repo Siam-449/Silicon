@@ -1,4 +1,4 @@
-@media (max-width:575px) {
+@media (max-width:575.98px) {
     .nav-bar-button {
         margin-left: -1px;
         margin-top: 22px;
@@ -26,7 +26,7 @@
         padding-bottom: 5px;
         element.style {
         margin-bottom: inherit;
-}
+        }
     }
 
     #banner_slider .carousel-item h1 {
@@ -50,11 +50,92 @@
         flex-wrap: wrap;
         gap: 15px;
     }
-
+    
     .social_link {
         margin-bottom: inherit;
     }
     /* banner sec end */
+    
+    .award_contant ul {
+        gap: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .award_contant p {
+        padding-bottom: 24px;
+    }
+
+    .award_contant h4 {
+        padding-top: 35px;
+    }
+
+    #award {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    /* offered-ser start */
+
+    .offered-ser{
+        font-size: 30px;
+    }
+
+    .service_heading {
+        flex-wrap: wrap;
+        padding-bottom: 130px;
+    }
+
+    .service_heading {
+        padding-bottom: 80px;
+    }
+
+    .service_item {
+        padding: 64px 15px 25px;
+    }
+
+    .service_item h3 {
+        font-size: 19px;
+        gap: 10px;
+    }
+
+    .service_heading p {
+        padding-top: 15px;
+    }
+
+    /* offered-ser end */
+
+    /*case study sec start  */
+
+    #padding {
+        padding-top: 0px;
+    }
+
+    #case_studies .overlay {
+        padding-top: 130px;
+        padding-bottom: 55px;
+    }
+
+    .case_slider .case_item {
+        padding: 24px;
+    }
+
+    #case_studies .chavrn-right {
+        left: -428.28%;
+    }
+
+    /*case study sec end  */
+
+
+
+
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
@@ -62,6 +143,64 @@
         margin-left: -1px;
         margin-top: 22px;
     }
+
+    /* banner sec start */
+    #banner_slider {
+        height: 450px;
+    }
+
+    
+
+    #banner_slider .carousel-item h1 {
+        font-size: 30px;
+        margin: -80px 0px;
+    }
+
+    
+
+    #banner_slider .carousel-item p {
+        font-size: 16px;
+        padding-top: 100px;
+        margin: 0 54px;
+        padding-bottom: 14px;
+    }
+
+    .slide_footer {
+        padding: 35px 30px 0;
+    }
+
+    .social_link {
+        margin-bottom: inherit;
+    }
+
+    /* banner sec end */
+
+    /* award wining sec start*/
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: -5px;
+    }
+
+    .award_contant h4 {
+        padding-top: 40px;
+    }
+
+    /* award wining sec end */
+
+    /* case stady sec start */
+
+    #case_studies .overlay {
+        padding-top: 105px;
+        padding-bottom: 55px;
+    }
+    /* case stady sec end */
+
 }
 
 
@@ -70,16 +209,78 @@
         margin-left: -1px;
         margin-top: 22px;
     }
+
+    /* banner sec start */
+    
+    #banner_slider {
+        height: 650px;
+    }
+
+    #banner_slider .carousel-item h1 {
+        font-size: 59px;
+        font-weight: 800;
+    }
+
+    #banner_slider .carousel-item p {
+        font-size: 17px;
+        margin: 0 76px;
+    }
+
+    .slide_footer {
+        padding: 46px px 0;
+    }
+
+    .social_link {
+        margin-bottom: inherit;
+    }
+
+    img {
+        border-radius: 20px;
+    }
+    /* case stady sec start */
+    
+    #case_studies .overlay {
+        padding-top: 110px;
+        padding-bottom: 55px;
+    }
+    
+    /* case stady sec end */
 }
 
 @media (min-width:992px) and (max-width:1199.98px) {
     .work-with-us-btn {
         display: none;
     }
+
+    /* case study sec start */
+    
+    #case_studies .overlay {
+        padding-top: 130px;
+        padding-bottom: 55px;
+    }
+    /* case study sec end */
 }
+
+
 
 @media (min-width:1200px) and (max-width:1399.98px) {
     
+    /* offer service start */
+    
+    
+    .my-p-padding {
+        padding-bottom: 23px;
+    }
+    /* offer service end */
+
+
+    /* case study sec start */
+
+    #case_studies .overlay {
+        padding-top: 125px;
+        padding-bottom: 55px;
+    }
+    /* case study sec end */
 }
 
 @media (min-width:1400px) {
