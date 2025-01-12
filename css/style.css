@@ -624,7 +624,7 @@ body{
 
 .annette-item .icon {
     width: 52px;
-    height: 52px;
+    height: 35px;
     background: #6366F1;
     box-shadow: 0px 8px 18px -8px rgba(99, 102, 241, 0.9);
     border-radius: 8px;
@@ -713,7 +713,7 @@ body{
 
 .logos .logo-item {
     max-width: 196px;
-    padding: 35px 39px;
+    padding: 35px 20px;
     background: #FFFFFF;
     border: 1px solid #E2E5F1;
     border-radius: 8px;
@@ -869,6 +869,7 @@ body{
 footer {
     background: #0B0F19;
     color: #FFFFFF;
+    padding-bottom: 30px;
 }
 
 #project .overly {
